@@ -31,6 +31,7 @@ public class SpringbootjpaApplicationTests {
 
 	@Before
 	public void setUp() throws Exception {
+
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
 
 	}

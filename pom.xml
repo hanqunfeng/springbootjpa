@@ -87,13 +87,13 @@
 		</dependency>
 		<!-- oracle end -->
 
-		<!-- google guava 工具类 -->
+        <!-- google guava 工具类 start -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>18.0</version>
         </dependency>
-
+        <!-- google guava 工具类 end -->
 
 	</dependencies>
 
