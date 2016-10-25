@@ -18,7 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-@Transactional
+@Transactional //需要支持事务的数据库，mongo不支持，会报错
 public class SpringbootjpaApplicationTests {
 	@Autowired
 	PersonRepository personRepository;
